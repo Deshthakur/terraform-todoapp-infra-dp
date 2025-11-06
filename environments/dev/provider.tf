@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "desh-rg"
-    storage_account_name = "deshstg0001"
+    storage_account_name = "deshstg0002"
     container_name       = "dp-container"
     key                  = "dp.tfstate"
   }
@@ -15,5 +15,5 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "d4dd492e-ac76-46a2-af88-5eb9ab61fb54"
+  subscription_id = "85002d33-efb7-4e6a-8e6d-7457837654e2"
 }
