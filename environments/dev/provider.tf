@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "desh-rg"
-    storage_account_name = "deshstg0002"
+    storage_account_name = "deshstorage002"
     container_name       = "dp-container"
     key                  = "dp.tfstate"
   }
